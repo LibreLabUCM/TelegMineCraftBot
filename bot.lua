@@ -2,11 +2,15 @@
 -- Config
 
 local token = "Token"
-local admins = { 
+-- Telegram bot token (from @BotFather )
+local admins = {
+ -- Telegram ID's of admin users
    12345678,
    87654321
 }
 local monitor_side = "left"
+-- Where is the monitor? left, right?
+
 
 -- Set Up
 
