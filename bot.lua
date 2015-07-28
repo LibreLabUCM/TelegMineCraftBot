@@ -21,7 +21,7 @@ local api_url = "https://api.telegram.org/bot" .. token .. "/"
 
 -- Bot starts here:
 
- monitor.write("Starting up....)
+ monitor.write("Starting up....")
 
 local request = http.get(api_url .. "getMe")
 monitor.write(request.readAll())
